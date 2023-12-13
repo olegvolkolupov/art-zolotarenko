@@ -1,0 +1,19 @@
+.gallery .swiper {
+  overflow: visible !important;
+}
+
+.gallery-swiper {
+  /* margin-top: 3rem; */
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.gallery-swiper .swiper-slide {
+  width: 20rem;
+}
+
+.gallery img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
