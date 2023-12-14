@@ -5,8 +5,7 @@ import {
   FaPhone,
   FaMailBulk,
   FaFacebook,
-  FaTwitter,
-  FaLinkedin,
+  FaInstagram,
 } from "react-icons/fa";
 
 import "./FooterStyles.css";
@@ -43,26 +42,33 @@ export default function Footer() {
           </div>
         </div>
         <div className="right">
-          <h4>About the artist</h4>
+          <h4>About the site</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum
             totam, voluptates laborum molestiae quasi recusandae vel eligendi
-            tempora dicta, laudantium unde quidem natus nesciunt ab laboriosam
-            quia minima nobis?
+            tempora dicta.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://www.facebook.com/profile.php?id=100044612930668"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/art.zolotarenko?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

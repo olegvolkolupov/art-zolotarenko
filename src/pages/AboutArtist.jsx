@@ -1,8 +1,10 @@
 import React from "react";
 
-export default function About() {
+import "./AboutArtistStyles.css";
+
+export default function AboutArtist() {
   return (
-    <div>
+    <div className="aboutartist-wrap">
       <h1>About me and achievements</h1>
       <p>
         For the first time, I saw painted flowers on the walls of a clay house

@@ -1,0 +1,11 @@
+.aboutartist-wrap {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutartist-wrap h1 {
+  align-self: center;
+}

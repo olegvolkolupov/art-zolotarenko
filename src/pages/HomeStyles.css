@@ -18,7 +18,7 @@
   top: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .wrap {
@@ -28,8 +28,14 @@
 
 .wrap .content {
   position: absolute;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 30%;
   left: 50%;
   text-align: center;
   color: #f0f8ff;
@@ -46,11 +52,13 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
   .wrap .content {
     top: 25%;
   }
+}
 
+@media screen and (max-width: 640px) {
   .wrap .content h1 {
     font-size: 2rem;
   }

@@ -12,9 +12,9 @@ export default function Home() {
           <img className="mask-img" src={backImg} alt="Ukraine in flowers" />
         </div>
         <div className="content">
-          {/* <p>Ella Zolotarenko</p> */}
-          {/* <h1>Ukrainian artist</h1> */}
-          <p>Petrikivka style</p>
+          <p>Ella Zolotarenko</p>
+          <h1>Petrykivka art</h1>
+          <p>Ukrainian artist</p>
         </div>
       </div>
     </div>
