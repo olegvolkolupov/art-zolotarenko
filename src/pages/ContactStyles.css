@@ -1,13 +1,21 @@
-label {
+/* label {
   margin-bottom: 0.5rem;
-}
+} */
 
-form {
+.contact {
   display: flex;
   flex-direction: column;
   padding: 4rem 1rem;
   margin: auto;
   max-width: 600px;
+}
+.contact h1 {
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 form input,
@@ -26,17 +34,10 @@ form textarea {
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;
-  cursor: pointer;
-}
-
-.btn-light {
-  /* background: rgba(255, 255, 255, 0.2); */
-  background: transparent;
-  color: #fff;
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   transition: 0.3s;
 }

@@ -10,46 +10,55 @@ import img09 from "../img/paintings/09.jpg";
 
 const images = [
   {
+    id: 1,
     src: img01,
     title: "petrykivka1",
     alt: "petrykivka1",
   },
   {
+    id: 2,
     src: img02,
     title: "petrykivka2",
     alt: "petrykivka2",
   },
   {
+    id: 3,
     src: img03,
     title: "petrykivka3",
     alt: "petrykivka3",
   },
   {
+    id: 4,
     src: img04,
     title: "petrykivka4",
     alt: "petrykivka4",
   },
   {
+    id: 5,
     src: img05,
     title: "petrykivka5",
     alt: "petrykivka5",
   },
   {
+    id: 6,
     src: img06,
     title: "petrykivka6",
     alt: "petrykivka6",
   },
   {
+    id: 7,
     src: img07,
     title: "petrykivka7",
     alt: "petrykivka7",
   },
   {
+    id: 8,
     src: img08,
     title: "petrykivka8",
     alt: "petrykivka8",
   },
   {
+    id: 9,
     src: img09,
     title: "petrykivka9",
     alt: "petrykivka9",

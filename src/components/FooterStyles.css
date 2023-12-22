@@ -13,6 +13,11 @@
   grid-gap: 40px;
 }
 
+.footer-container img {
+  width: 30px;
+  height: 30px;
+}
+
 .left {
   height: 100%;
   max-width: 100%;
@@ -23,6 +28,10 @@
 
 .location {
   display: flex;
+  margin-bottom: 0.87rem;
+}
+
+.email {
   margin-bottom: 0.87rem;
 }
 

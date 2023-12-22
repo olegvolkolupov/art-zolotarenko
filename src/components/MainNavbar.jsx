@@ -7,7 +7,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function MainNavbar() {
+import icon from "../assets/icon.png";
+
+function MainNavbar({ setModalShow }) {
   return (
     <Navbar
       className="bg-body-tertiary"
@@ -18,7 +20,17 @@ function MainNavbar() {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand href="#home">Ella Zolotarenko</Navbar.Brand>
+        {/* <Navbar.Brand href="#home"> */}
+        <Navbar.Brand onClick={() => setModalShow(true)} href="#">
+          <img
+            alt=""
+            src={icon}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{" "}
+          Ella Zolotarenko
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">

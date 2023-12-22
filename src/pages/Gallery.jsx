@@ -14,11 +14,10 @@ export default function Gallery() {
         grabCursor={true}
         loop={true}
         autoplay={{ delay: 3000 }}
-        lazy={true}
         modules={[Autoplay]}
       >
         {images.map((img) => (
-          <SwiperSlide>
+          <SwiperSlide key={img.id}>
             <img src={img.src} alt={img.alt} title={img.title} loading="lazy" />
           </SwiperSlide>
         ))}
