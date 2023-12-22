@@ -4,6 +4,9 @@ import img03 from "../img/paintings/03.jpg";
 import img04 from "../img/paintings/04.jpg";
 import img05 from "../img/paintings/05.jpg";
 import img06 from "../img/paintings/06.jpg";
+import img07 from "../img/paintings/07.jpg";
+import img08 from "../img/paintings/08.jpg";
+import img09 from "../img/paintings/09.jpg";
 
 const images = [
   {
@@ -35,6 +38,21 @@ const images = [
     src: img06,
     title: "petrykivka6",
     alt: "petrykivka6",
+  },
+  {
+    src: img07,
+    title: "petrykivka7",
+    alt: "petrykivka7",
+  },
+  {
+    src: img08,
+    title: "petrykivka8",
+    alt: "petrykivka8",
+  },
+  {
+    src: img09,
+    title: "petrykivka9",
+    alt: "petrykivka9",
   },
 ];
 

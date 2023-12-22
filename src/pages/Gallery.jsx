@@ -11,10 +11,9 @@ export default function Gallery() {
     <div className="gallery">
       <Swiper
         className="gallery-swiper"
-        spaceBetween={30}
         grabCursor={true}
         loop={true}
-        autoplay={{ delay: 2500 }}
+        autoplay={{ delay: 3000 }}
         lazy={true}
         modules={[Autoplay]}
       >
