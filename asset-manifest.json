@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/art-zolotarenko/static/css/main.05a0b5a2.css",
-    "main.js": "/art-zolotarenko/static/js/main.8abd1f38.js",
+    "main.css": "/art-zolotarenko/static/css/main.6e94836a.css",
+    "main.js": "/art-zolotarenko/static/js/main.28eb78a5.js",
+    "static/media/icon.png": "/art-zolotarenko/static/media/icon.64a464d4089db3a0562e.png",
     "static/media/01.jpg": "/art-zolotarenko/static/media/01.52a6b5f6f61c61427e28.jpg",
+    "static/media/07.jpg": "/art-zolotarenko/static/media/07.e20372f1c31a734d0f47.jpg",
     "static/media/06.jpg": "/art-zolotarenko/static/media/06.89a370332584bb49691a.jpg",
     "static/media/02.jpg": "/art-zolotarenko/static/media/02.6a2da6835c1df0c35cd2.jpg",
+    "static/media/09.jpg": "/art-zolotarenko/static/media/09.06c088c5b07504a8fb2b.jpg",
     "static/media/04.jpg": "/art-zolotarenko/static/media/04.e6b1b6e45305fcf1a661.jpg",
+    "static/media/08.jpg": "/art-zolotarenko/static/media/08.8ac0b7725f120e73e076.jpg",
     "static/media/03.jpg": "/art-zolotarenko/static/media/03.30c9a4cfb9a9cf270a24.jpg",
     "static/media/05.jpg": "/art-zolotarenko/static/media/05.d43995020d9c0a0de7e4.jpg",
+    "static/media/whatsapp.png": "/art-zolotarenko/static/media/whatsapp.042f822ea838a8ea10a6.png",
+    "static/media/instagram.png": "/art-zolotarenko/static/media/instagram.bed55d9bbba936a57508.png",
+    "static/media/phone.png": "/art-zolotarenko/static/media/phone.68f6e8f47d6226d65ae7.png",
+    "static/media/web.png": "/art-zolotarenko/static/media/web.ddea4908eefd4d5c8d9b.png",
     "index.html": "/art-zolotarenko/index.html",
-    "main.05a0b5a2.css.map": "/art-zolotarenko/static/css/main.05a0b5a2.css.map",
-    "main.8abd1f38.js.map": "/art-zolotarenko/static/js/main.8abd1f38.js.map"
+    "main.6e94836a.css.map": "/art-zolotarenko/static/css/main.6e94836a.css.map",
+    "main.28eb78a5.js.map": "/art-zolotarenko/static/js/main.28eb78a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a0b5a2.css",
-    "static/js/main.8abd1f38.js"
+    "static/css/main.6e94836a.css",
+    "static/js/main.28eb78a5.js"
   ]
 }
