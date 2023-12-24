@@ -7,7 +7,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import icon from "../assets/icon.png";
+// import icon from "../assets/icon.png";
+import icon from "../assets/logo.png";
 
 function MainNavbar({ setModalShow }) {
   return (
@@ -20,7 +21,6 @@ function MainNavbar({ setModalShow }) {
       collapseOnSelect
     >
       <Container>
-        {/* <Navbar.Brand href="#home"> */}
         <Navbar.Brand onClick={() => setModalShow(true)} href="#">
           <img
             alt=""
@@ -34,9 +34,7 @@ function MainNavbar({ setModalShow }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
-            {/* <Nav.Link href="#home">Home</Nav.Link> */}
             <Nav.Link href="#gallery">Gallery</Nav.Link>
-            {/* <Nav.Link href="#about">About</Nav.Link> */}
             <NavDropdown title="About" id="basic-nav-dropdown">
               <NavDropdown.Item href="#aboutartist">Ella</NavDropdown.Item>
               <NavDropdown.Item href="#aboutart">Art</NavDropdown.Item>

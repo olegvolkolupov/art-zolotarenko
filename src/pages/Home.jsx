@@ -26,7 +26,7 @@ export default function Home(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="bg-success bg-gradient bg-opacity-50">
-        <h4>Керівник та засновниця Творчої студії "Зернятко" (2012-2023рр)</h4>
+        <h4>Керівник та засновниця Творчої студії "Зернятко" (2012-2024рр)</h4>
         <p>
           <img
             className="social-img"
@@ -50,31 +50,35 @@ export default function Home(props) {
           колективно та онлайн.
         </p>
         <p>
-          <span style={{ marginRight: "1rem" }}>Творчість в соцмережах:</span>
-          <a
-            href="https://www.facebook.com/profile.php?id=100044612930668"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="social-img"
-              src={facebook}
-              alt="Facebook"
-              style={{ marginRight: "2rem" }}
-            />
-          </a>
-          <a
-            href="https://instagram.com/art.zolotarenko?igshid=OGQ5ZDc2ODk2ZA=="
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="social-img"
-              src={instagram}
-              alt="Instagram"
-              style={{ marginRight: "1rem" }}
-            />
-          </a>
+          <span className="nowrap" style={{ marginRight: "1rem" }}>
+            Творчість в соцмережах:
+          </span>
+          <span className="nowrap">
+            <a
+              href="https://www.facebook.com/profile.php?id=100044612930668"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="social-img"
+                src={facebook}
+                alt="Facebook"
+                style={{ marginRight: "1.5rem" }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/art.zolotarenko"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="social-img"
+                src={instagram}
+                alt="Instagram"
+                style={{ marginRight: "1rem" }}
+              />
+            </a>
+          </span>
         </p>
         <p>
           <img
@@ -89,7 +93,7 @@ export default function Home(props) {
             alt="Whatsapp"
             style={{ marginRight: "1rem" }}
           />{" "}
-          +38 067 909 27 85
+          <span className="nowrap">+38 067 909 27 85</span>
         </p>
         <p>
           <img

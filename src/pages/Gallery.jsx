@@ -1,7 +1,10 @@
 import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Keyboard, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
 import images from "../service/images";
 
 import "./GalleryStyles.css";
@@ -12,9 +15,13 @@ export default function Gallery() {
       <Swiper
         className="gallery-swiper"
         grabCursor={true}
-        loop={true}
+        loop
+        modules={[Keyboard, Navigation, Autoplay]}
         autoplay={{ delay: 3000 }}
-        modules={[Autoplay]}
+        navigation
+        keyboard={{
+          enabled: true,
+        }}
       >
         {images.map((img) => (
           <SwiperSlide key={img.id}>

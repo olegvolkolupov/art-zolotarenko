@@ -1,11 +1,34 @@
 .aboutartist-wrap {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .aboutartist-wrap h1 {
-  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutartist-wrap img {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+
+  width: 35%;
+  height: auto;
+  min-width: 275px;
+}
+
+@media screen and (max-width: 640px) {
+  .aboutartist-wrap {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutartist-wrap img {
+    float: initial;
+    margin-right: 0;
+  }
 }

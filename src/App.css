@@ -7,9 +7,16 @@
 .App {
   overflow: hidden;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-width: 300px;
+
   color: #112a46;
-  background: #acc8e5dc;
-  min-width: 250px;
+  text-align: justify;
+  /* background: #acc8e5dc; */
+  background-image: linear-gradient(hsla(64, 55%, 85%, 0.637), #acc8e5dc);
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .home-separator {

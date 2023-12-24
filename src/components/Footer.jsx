@@ -2,7 +2,7 @@ import React from "react";
 
 import home from "../assets/social/home.png";
 import mail from "../assets/social/mail.png";
-import phone from "../assets/social/phone.png";
+// import phone from "../assets/social/phone.png";
 import viber from "../assets/social/viber.png";
 import whatsapp from "../assets/social/whatsapp.png";
 import facebook from "../assets/social/facebook.png";
@@ -33,28 +33,32 @@ export default function Footer() {
           </div>
           <div className="phone">
             <h4>
-              <img
+              {/* <img
                 src={phone}
                 alt="phone"
                 style={{ marginRight: "1rem", filter: "invert(1)" }}
-              />
+              /> */}
               <img src={viber} alt="viber" style={{ marginRight: "1rem" }} />
               <img
                 src={whatsapp}
                 alt="whatsapp"
                 style={{ marginRight: "1rem" }}
               />
-              +38 067 909 27 85
+              <span className="nowrap">+38 067 909 27 85</span>
             </h4>
           </div>
-        </div>
-        <div className="right">
-          <h4>About the site</h4>
-          <p>
-            This is the page of the Ukrainian artist Ella Zolotarenko, who works
-            in the style of Petrykiv's painting.
-          </p>
           <div className="social">
+            <a
+              href="https://instagram.com/art.zolotarenko"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={instagram}
+                alt="instagram"
+                style={{ marginRight: "1rem" }}
+              />
+            </a>
             <a
               href="https://www.facebook.com/profile.php?id=100044612930668"
               target="_blank"
@@ -66,18 +70,19 @@ export default function Footer() {
                 style={{ marginRight: "2rem" }}
               />
             </a>
-            <a
-              href="https://instagram.com/art.zolotarenko?igshid=OGQ5ZDc2ODk2ZA=="
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={instagram}
-                alt="instagram"
-                style={{ marginRight: "1rem" }}
-              />
-            </a>
           </div>
+        </div>
+        <div className="right">
+          <h4>About the site</h4>
+          <p>
+            This is the page of the Ukrainian artist Ella Zolotarenko, who works
+            in the style of Petrykiv's painting.
+          </p>
+          <p>
+            <span className="nowrap">Copyright &copy; 2012-2024</span>{" "}
+            <span className="nowrap">Ella Zolotarenko</span>
+          </p>
+          <p>All Rights Reserved</p>
         </div>
       </div>
     </div>
