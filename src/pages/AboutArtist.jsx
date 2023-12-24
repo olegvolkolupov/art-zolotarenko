@@ -1,13 +1,32 @@
 import React from "react";
 
-import artist01 from "../img/artist/01.jpg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectCube } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/autoplay";
+import artistFotos from "../service/artistFotos";
+
 import "./AboutArtistStyles.css";
 
 export default function AboutArtist() {
   return (
     <div className="aboutartist-wrap">
       <h1>About me and achievements</h1>
-      <img src={artist01} alt="Ella Zolotarenko" />
+      <Swiper
+        className="artist-swiper"
+        effect="cube"
+        grabCursor={true}
+        loop
+        modules={[Autoplay, EffectCube]}
+        autoplay={{ delay: 4000 }}
+      >
+        {artistFotos.map((img) => (
+          <SwiperSlide key={img.id}>
+            <img src={img.src} alt={img.alt} title={img.title} loading="lazy" />
+          </SwiperSlide>
+        ))}
+      </Swiper>
       <p>
         For the first time, I saw painted flowers on the walls of a clay house
         in my grandmother's village in Petrykivka, Dnipropetrovsk region when I

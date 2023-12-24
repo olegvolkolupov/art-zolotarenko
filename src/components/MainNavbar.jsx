@@ -7,7 +7,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import icon from "../assets/icon.png";
 import icon from "../assets/logo.png";
 
 function MainNavbar({ setModalShow }) {
@@ -21,7 +20,7 @@ function MainNavbar({ setModalShow }) {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand onClick={() => setModalShow(true)} href="#">
+        <Navbar.Brand onClick={() => setModalShow(true)} href="#home">
           <img
             alt=""
             src={icon}

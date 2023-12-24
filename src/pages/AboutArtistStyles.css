@@ -8,14 +8,19 @@
   text-align: center;
 }
 
-.aboutartist-wrap img {
-  float: left;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
+.artist-swiper {
+  margin: 0;
+  width: 300px;
+  height: 300px;
 
-  width: 35%;
+  float: left;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.artist-swiper img {
+  width: 100%;
   height: auto;
-  min-width: 275px;
 }
 
 @media screen and (max-width: 640px) {
@@ -27,7 +32,7 @@
     align-items: center;
   }
 
-  .aboutartist-wrap img {
+  .artist-swiper {
     float: initial;
     margin-right: 0;
   }

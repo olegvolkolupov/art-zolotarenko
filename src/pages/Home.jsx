@@ -10,6 +10,9 @@ import whatsapp from "../assets/social/whatsapp.png";
 import facebook from "../assets/social/facebook.png";
 import instagram from "../assets/social/instagram.png";
 
+import icon from "../assets/logo.png";
+import artistFoto from "../img/artist/06.jpg";
+
 import "./HomeStyles.css";
 
 export default function Home(props) {
@@ -22,10 +25,18 @@ export default function Home(props) {
     >
       <Modal.Header className="bg-info" closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
+          <img
+            alt=""
+            src={icon}
+            width="40"
+            height="40"
+            className="d-inline-block align-top"
+          />{" "}
           Золотаренко Елла
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="bg-success bg-gradient bg-opacity-50">
+        <img className="artist-img" src={artistFoto} alt="Ella Zolotarenko" />
         <h4>Керівник та засновниця Творчої студії "Зернятко" (2012-2024рр)</h4>
         <p>
           <img
@@ -34,7 +45,13 @@ export default function Home(props) {
             alt="Web"
             style={{ marginRight: "1rem" }}
           />
-          www.masterskyja.blogspot.com
+          <a
+            href="http://www.masterskyja.blogspot.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            www.masterskyja.blogspot.com
+          </a>
         </p>
         <p>
           Художниця українського та етнічного розпису в петриківському стилі.
