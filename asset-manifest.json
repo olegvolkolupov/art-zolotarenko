@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/art-zolotarenko/static/css/main.e7143120.css",
-    "main.js": "/art-zolotarenko/static/js/main.eeef5ce7.js",
+    "main.js": "/art-zolotarenko/static/js/main.58755fa0.js",
     "static/media/logo.png": "/art-zolotarenko/static/media/logo.71057ca9f95e63dc07fb.png",
     "static/media/09.jpg": "/art-zolotarenko/static/media/09.ec7e1016bb7a5524c50a.jpg",
     "static/media/06.jpg": "/art-zolotarenko/static/media/06.54fbac807b94f321c5d7.jpg",
@@ -18,10 +18,10 @@
     "static/media/web.png": "/art-zolotarenko/static/media/web.ddea4908eefd4d5c8d9b.png",
     "index.html": "/art-zolotarenko/index.html",
     "main.e7143120.css.map": "/art-zolotarenko/static/css/main.e7143120.css.map",
-    "main.eeef5ce7.js.map": "/art-zolotarenko/static/js/main.eeef5ce7.js.map"
+    "main.58755fa0.js.map": "/art-zolotarenko/static/js/main.58755fa0.js.map"
   },
   "entrypoints": [
     "static/css/main.e7143120.css",
-    "static/js/main.eeef5ce7.js"
+    "static/js/main.58755fa0.js"
   ]
 }
