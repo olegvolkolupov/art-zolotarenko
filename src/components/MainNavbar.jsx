@@ -20,7 +20,7 @@ function MainNavbar({ setModalShow }) {
       collapseOnSelect
     >
       <Container>
-        <Navbar.Brand onClick={() => setModalShow(true)} href="#home">
+        <Navbar.Brand onClick={() => setModalShow(true)} href="#aboutartist">
           <img
             alt=""
             src={icon}

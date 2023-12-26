@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
+
+import Alert from "react-bootstrap/Alert";
 
 import emailjs from "@emailjs/browser";
 import mailData from "../service/mailData";
@@ -10,6 +12,12 @@ import Button from "react-bootstrap/Button";
 import "./ContactStyles.css";
 
 export default function Contact() {
+  const [showAlert, setShowAlert] = useState(false);
+  const [alertVariant, setAlertVariant] = useState("success"); //or "danger"
+  const [alertText, setAlertText] = useState(
+    "Message sent successfully! I'll contact you as soon as posible."
+  );
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,10 +32,20 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setAlertVariant("success");
+          setAlertText(
+            "Message sent successfully! I'll contact you as soon as posible."
+          );
+          setShowAlert(true);
+          let elRef = e.target.elements;
+          elRef.user_name.value = "";
+          elRef.user_email.value = "";
+          elRef.message.value = "";
         },
         (error) => {
-          console.log(error.text);
+          setAlertVariant("danger");
+          setAlertText("Some error. " + error.text);
+          setShowAlert(true);
         }
       );
   };
@@ -35,6 +53,15 @@ export default function Contact() {
   return (
     <div className="contact">
       <h1>Send me a letter</h1>
+      <Alert
+        show={showAlert}
+        variant={alertVariant}
+        onClose={() => setShowAlert(false)}
+        dismissible
+      >
+        {alertText}
+      </Alert>
+
       <Form ref={form} onSubmit={sendEmail}>
         <FloatingLabel label="Name">
           <Form.Control
