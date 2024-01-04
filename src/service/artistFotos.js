@@ -4,8 +4,6 @@ import artist03 from "../img/artist/03.jpg";
 import artist04 from "../img/artist/04.jpg";
 import artist05 from "../img/artist/05.jpg";
 import artist06 from "../img/artist/06.jpg";
-import artist07 from "../img/artist/07.jpg";
-import artist08 from "../img/artist/08.jpg";
 
 export default [
   {
@@ -41,18 +39,6 @@ export default [
   {
     id: 6,
     src: artist06,
-    title: "ella zolotarenko",
-    alt: "ella zolotarenko",
-  },
-  {
-    id: 7,
-    src: artist07,
-    title: "ella zolotarenko",
-    alt: "ella zolotarenko",
-  },
-  {
-    id: 8,
-    src: artist08,
     title: "ella zolotarenko",
     alt: "ella zolotarenko",
   },

@@ -4,10 +4,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Form from "react-bootstrap/Form";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import icon from "../assets/logo.png";
+import multilang from "../assets/multilang.png";
 
 function MainNavbar({ setModalShow }) {
   return (
@@ -38,8 +40,17 @@ function MainNavbar({ setModalShow }) {
               <NavDropdown.Item href="#aboutartist">Ella</NavDropdown.Item>
               <NavDropdown.Item href="#aboutart">Art</NavDropdown.Item>
             </NavDropdown>
-
             <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Item>
+              <img alt="Lang" src={multilang} width="30" />
+            </Nav.Item>
+            <Nav.Item>
+              <Form.Select className="form-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </Form.Select>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -2,7 +2,6 @@ import React from "react";
 
 import home from "../assets/social/home.png";
 import mail from "../assets/social/mail.png";
-// import phone from "../assets/social/phone.png";
 import viber from "../assets/social/viber.png";
 import whatsapp from "../assets/social/whatsapp.png";
 import facebook from "../assets/social/facebook.png";
@@ -33,11 +32,6 @@ export default function Footer() {
           </div>
           <div className="phone">
             <h4>
-              {/* <img
-                src={phone}
-                alt="phone"
-                style={{ marginRight: "1rem", filter: "invert(1)" }}
-              /> */}
               <img src={viber} alt="viber" style={{ marginRight: "1rem" }} />
               <img
                 src={whatsapp}

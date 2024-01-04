@@ -13,10 +13,8 @@ import "./ContactStyles.css";
 
 export default function Contact() {
   const [showAlert, setShowAlert] = useState(false);
-  const [alertVariant, setAlertVariant] = useState("success"); //or "danger"
-  const [alertText, setAlertText] = useState(
-    "Message sent successfully! I'll contact you as soon as posible."
-  );
+  const [alertVariant, setAlertVariant] = useState(""); //"success" or "danger"
+  const [alertText, setAlertText] = useState("");
 
   const form = useRef();
 
