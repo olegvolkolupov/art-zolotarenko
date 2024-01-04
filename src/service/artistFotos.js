@@ -5,7 +5,7 @@ import artist04 from "../img/artist/04.jpg";
 import artist05 from "../img/artist/05.jpg";
 import artist06 from "../img/artist/06.jpg";
 
-export default [
+const artistFotos = [
   {
     id: 1,
     src: artist01,
@@ -43,3 +43,5 @@ export default [
     alt: "ella zolotarenko",
   },
 ];
+
+export default artistFotos;

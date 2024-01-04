@@ -8,7 +8,7 @@ import img07 from "../img/paintings/07.jpg";
 import img08 from "../img/paintings/08.jpg";
 import img09 from "../img/paintings/09.jpg";
 
-export default [
+const paintings = [
   {
     id: 1,
     src: img01,
@@ -64,3 +64,5 @@ export default [
     alt: "petrykivka9",
   },
 ];
+
+export default paintings;
