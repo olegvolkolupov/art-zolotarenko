@@ -1,39 +1,53 @@
 {
-  "mainNavbar": {
-    "brand": "Ella Zolotarenko",
-    "home": "Home",
-    "gallery": "Gallery",
-    "about": "About",
-    "aboutartist": "Ella",
-    "aboutart": "Art",
-    "contact": "Contact"
-  },
-  "home": {
-    "title": "Ella Zolotarenko",
-    "h4": "Head and founder of Creative Studio &quot;Zernyatko&quot;",
-    "paragraphs": "<p>Artist of Ukrainian and ethnic paintings in the Petrykiv style.<br />Ella Lvivyanka, a psychologist by profession, has been working as a teacher since 2012.<br />In his work, he uses the technique of Petrikovsky painting as art therapy and psychocorrection for children and adults.<br />She has many personal exhibitions in Ukraine and 16 abroad (Poland, Turkey, France, Spain). She actively participates in various international competitions and plein airs. Conducts training individually, collectively and online.</p>",
-    "social": "Creativity in social networks:",
-    "closeButton": "Close"
-  },
-  "aboutArt": {
-    "header": "Petrykivka",
-    "paragraphs": "<p>Petrykiv&apos;s painting is a characteristic layer of the culture of the Ukrainian nation, recognized around the world as a phenomenon of national thinking and artistic imagination. It originated as a phenomenon 300 years ago in the village of Petrykivka in Dnipro (Eastern Ukraine).</p><p>Petrykivka did not know serfdom. Free Zaporozhye Cossacks lived there. Around the people there were steppe lands, chernozems, rich flora on the Dnieper. Cossacks builtclay houses of clay with roofs made of reeds.</p><p>The villagers decorated their windows, doors and walls with flowers, birds, and berries. People had naive faith in their drawings - they were supposed to protect them from ghosts. Over time, this folk art began to develop on porcelain, wooden objects, and book graphics. Over three centuries, thousands of artists perfected their skills, turning the painting of a small village into pan-Ukrainian art. Since 2005, Petrykowski&apos;s design has been recognized as UNESCO&apos;s intangible heritage.</p><p>In Soviet times, the &quot;Druzhba&quot; factory operated in Petrykivka for many years, where a huge number of patterns on a black background were produced for export. Later, Petrykivka returned to the light background. But the crates are still painted on a colored background.</p><p>Modern Petrykiv painting is a folk art that has unusual ways of drawing. By drawing with fingers, sticks and brushes from cat hair, they create delicate patterns, amazing shapes and fantastic color combinations. Images are transformed into a fabulous world.</p>"
-  },
-  "aboutArtist": {
-    "header": "About me and achievements",
-    "paragraphs": "<p>For the first time I saw painted flowers on the walls of a clay house in my grandmother&apos;s village in Petrykivka, Dnipropetrovsk region when I was 10 years old. Bright flowers, birds and amazing plots captured my childhood imagination.</p><p>The Ukrainian tradition of wall painting in peasant&apos;s houses existed as early as 300 years ago. Many generations of native masters from Petrykyvka carefully passed down their skills from grandmother to granddaughter, preserving the traditions and sacred meanings of the patterns. No one in my family drew. However, my father always supported my creativity. So, thanks to him, I became more familiar with the special Ukrainian ethnic painting.</p><p>The Druzhba factory worked in the village of Petrikivka for 40 years, so my father sent me to study with the famous artist Fyodor Panko. And it was in the workshops of the factory that I saw an unusual way of painting berries and flowers with my fingers. The brushes were also homemade from cat fur and were called &quot;kittyka&quot;. At the factory, painters painted bright wooden caskets, plates, spoons, chests, etc. in huge batches. Therefore, almost every Ukrainian person has an idea about the Petrykiv painting. I was lucky to see all technological processes and learn to distinguish Ukrainian painting from others thanks to the technique and symbolism that I learned in childhood.</p><p>Already at a mature age, I remembered the ability to draw Petrykiv painting. Over time, I created a creative studio &quot;Zernyatko&quot; in Lviv. My goal became to reproduce the flowering of Petrykivka that I once saw in my childhood. And now, for 12 years, my mission has been to master and popularize the Petrykiv painting. I teach children and adults and continue to study myself.</p><p>I use finger painting as art therapy nowadays, as well as drawing small elements with a &quot;cat&quot; in order to master Ukrainian ethnic calligraphy. All this develops fine motor skills in children and forms creative thinking.</p><p>To date, I have had many exhibitions in Ukraine and 16 personal exhibitions abroad, namely in Poland, Spain, France and Turkey.</p><p>I work as an art psychologist in Lviv and abroad. Currently, I am working on my 2 manuals about Petrikovsky painting. In addition, several methods with the basics of painting and psychological influence on the development of children&apos;s motor skills are being refined. The manuals are intended for the work of teachers and psychologists with art therapy painting, as well as for people who want to master Petrykiv painting without a teacher.</p><>For almost 350 years of the folk wall painting existence, the Petrykiv painting has turned into an art that has been recognized as an intangible UNESCO heritage. The symbolism and skill of artists is enriched. But the tools and painting techniques still remain primitive, which distinguishes Petrykiv painting from other types of applied art.</p>"
-  },
-  "contact": {
-    "title": "Send me a letter",
-    "sendButton": "Send",
-    "successAlert": "Message sent successfully!",
-    "errorAlert": "Some error. "
-  },
-  "footer": {
-    "title": "About the site",
-    "text": "This is the page of the Ukrainian artist Ella Zolotarenko, who works in the style of Petrykiv's painting.",
-    "artist": "Ella Zolotarenko",
-    "copyright": "Copyright",
-    "rights": "All Rights Reserved"
-  }
+  "mainNavbar.brand": "Ella Zolotarenko",
+  "mainNavbar.home": "Home",
+  "mainNavbar.gallery": "Gallery",
+  "mainNavbar.about": "About",
+  "mainNavbar.aboutartist": "Artist",
+  "mainNavbar.aboutart": "Art",
+  "mainNavbar.contact": "Contact",
+
+  "home.title": "Ella Zolotarenko",
+  "home.h4": "Head and founder of Creative Studio",
+  "home.h4.studio": "Zernyatko",
+  "home.h4.years": "(2012-2024)",
+  "home.p1": "Artist of Ukrainian and ethnic paintings in the Petrykiv style.",
+  "home.p2": "Ella Lvivyanka, a psychologist by profession, has been working as a teacher since 2012.",
+  "home.p3": "In her work she uses the technique of Petrikovsky painting as art therapy and psychocorrection for children and adults.",
+  "home.p4": "She has many personal exhibitions in Ukraine and 16 abroad (Poland, Turkey, France, Spain). She actively participates in various international competitions and plein airs. Conducts training individually, collectively and online.",
+  "home.social": "Creativity in social networks:",
+  "home.closeButton": "Close",
+
+  "aboutArt.header": "Petrykivka",
+  "aboutArt.p1": "Petrykivka's painting is a characteristic layer of the culture of the Ukrainian nation, recognized around the world as a phenomenon of national thinking and artistic imagination. It originated as a phenomenon 300 years ago in the village of Petrykivka in Dnipro (Eastern Ukraine).",
+  "aboutArt.p2": "Petrykivka did not know serfdom. Free Zaporozhye Cossacks lived there. Around the people there were steppe lands, chernozems, rich flora on the Dnieper. Cossacks builtclay houses of clay with roofs made of reeds.",
+  "aboutArt.p3": "The villagers decorated their windows, doors and walls with flowers, birds, and berries. People had naive faith in their drawings - they were supposed to protect them from ghosts. Over time, this folk art began to develop on porcelain, wooden objects, and book graphics. Over three centuries, thousands of artists perfected their skills, turning the painting of a small village into pan-Ukrainian art. Since 2005, Petrykowski's design has been recognized as UNESCO's intangible heritage.",
+  "aboutArt.p4": "In Soviet times, the",
+  "aboutArt.p5": "factory operated in Petrykivka for many years, where a huge number of patterns on a black background were produced for export. Later, Petrykivka returned to the light background. But the crates are still painted on a colored background.",
+  "aboutArt.p6": "Modern Petrykiv painting is a folk art that has unusual ways of drawing. By drawing with fingers, sticks and brushes from cat hair, they create delicate patterns, amazing shapes and fantastic color combinations. Images are transformed into a fabulous world.",
+  "aboutArt.factory": "Druzhba",
+
+  "aboutArtist.header": "About me and achievements",
+  "aboutArtist.p1": "For the first time, I saw painted flowers on the walls of a clay house in my grandmother's village in Petrykivka, Dnipropetrovsk region when I was 10 years old. Bright flowers, birds and amazing plots captured my childhood imagination.",
+  "aboutArtist.p2": "The Ukrainian tradition of wall painting in peasant's houses existed as early as 300 years ago. Many generations of native masters from Petrykyvka carefully passed down their skills from grandmother to granddaughter, preserving the traditions and sacred meanings of the patterns. No one in my family drew. However, my father always supported my creativity. So, thanks to him, I became more familiar with the special Ukrainian ethnic painting.",
+  "aboutArtist.p3": "The Druzhba factory worked in the village of Petrikivka for 40 years, so my father sent me to study with the famous artist Fyodor Panko. And it was in the workshops of the factory that I saw an unusual way of painting berries and flowers with my fingers. The brushes were also homemade from cat fur and were called 'kittyka'. At the factory, painters painted bright wooden caskets, plates, spoons, chests, etc. in huge batches. Therefore, almost every Ukrainian person has an idea about the Petrykiv painting. I was lucky to see all technological processes and learn to distinguish Ukrainian painting from others thanks to the technique and symbolism that I learned in childhood.",
+  "aboutArtist.p4": "Already at a mature age, I remembered the ability to draw Petrykiv painting. Over time, I created a creative studio 'Zernyatko' in Lviv. My goal became to reproduce the flowering of Petrykivka that I once saw in my childhood. And now, for 12 years, my mission has been to master and popularize the Petrykiv painting. I teach children and adults and continue to study myself.",
+  "aboutArtist.p5": "I use finger painting as art therapy nowadays, as well as drawing small elements with a 'cat' in order to master Ukrainian ethnic calligraphy. All this develops fine motor skills in children and forms creative thinking.",
+  "aboutArtist.p6": "To date, I have had many exhibitions in Ukraine and 16 personal exhibitions abroad, namely in Poland, Spain, France and Turkey.",
+  "aboutArtist.p7": "I work as an art psychologist in Lviv and abroad. Currently, I am working on my 2 manuals about Petrikovsky painting. In addition, several methods with the basics of painting and psychological influence on the development of children's motor skills are being refined. The manuals are intended for the work of teachers and psychologists with art therapy painting, as well as for people who want to master Petrykiv painting without a teacher.",
+  "aboutArtist.p8": "For almost 350 years of the folk wall painting existence, the Petrykiv painting has turned into an art that has been recognized as an intangible UNESCO heritage. The symbolism and skill of artists is enriched. But the tools and painting techniques still remain primitive, which distinguishes Petrykiv painting from other types of applied art.",
+
+  "contact.title": "Send me a letter",
+  "contact.name": "Name",
+  "contact.email": "Email",
+  "contact.message": "Message",
+  "contact.sendButton": "Send",
+  "contact.successAlert": "Message sent successfully!",
+  "contact.errorAlert": "Some error. ",
+
+  "footer.title": "About the site",
+  "footer.text": "This is the page of the Ukrainian artist Ella Zolotarenko, who works in the style of Petrykiv's painting.",
+  "footer.artist": "Ella Zolotarenko",
+  "footer.copyright": "Copyright",
+  "footer.rights": "All Rights Reserved"
 }

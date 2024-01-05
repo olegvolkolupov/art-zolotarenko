@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FormattedMessage } from "react-intl";
+
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
@@ -32,12 +34,21 @@ export default function Home(props) {
             height="40"
             className="d-inline-block align-top"
           />{" "}
-          Золотаренко Елла
+          <FormattedMessage id="home.title" defaultMessage="Ella Zolotarenko" />
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="bg-success bg-gradient bg-opacity-50">
         <img className="artist-img" src={artistFoto} alt="Ella Zolotarenko" />
-        <h4>Керівник та засновниця Творчої студії "Зернятко" (2012-2024рр)</h4>
+        <h4>
+          <FormattedMessage
+            id="home.h4"
+            defaultMessage="Head and founder of Creative Studio"
+          />{" "}
+          &quot;
+          <FormattedMessage id="home.h4.studio" defaultMessage="Zernyatko" />
+          &quot;{" "}
+          <FormattedMessage id="home.h4.years" defaultMessage="(2012-2024)" />
+        </h4>
         <p>
           <img
             className="social-img"
@@ -54,21 +65,32 @@ export default function Home(props) {
           </a>
         </p>
         <p>
-          Художниця українського та етнічного розпису в петриківському стилі.
+          <FormattedMessage
+            id="home.p1"
+            defaultMessage="Artist of Ukrainian and ethnic paintings in the Petrykiv style."
+          />
           <br />
-          Елла Львів'янка, за фахом психолог, працює вчителем з 2012 року.
+          <FormattedMessage
+            id="home.p2"
+            defaultMessage="Ella Lvivyanka, a psychologist by profession, has been working as a teacher since 2012."
+          />
           <br />
-          У своїй діяльності застосовує техніку петриківського розпису як
-          арт-терапію та психокорекцію для дітей і дорослих.
+          <FormattedMessage
+            id="home.p3"
+            defaultMessage="In his work, he uses the technique of Petrikovsky painting as art therapy and psychocorrection for children and adults."
+          />
           <br />
-          Має безліч персональних виставок в Україні, та 16 за кордоном (Польща,
-          Туреччина, Франція, Іспанія). Активно бере участь у різноманітних
-          міжнародних конкурсах і пленерах. Проводить навчання індивідуально,
-          колективно та онлайн.
+          <FormattedMessage
+            id="home.p4"
+            defaultMessage="She has many personal exhibitions in Ukraine and 16 abroad (Poland, Turkey, France, Spain). She actively participates in various international competitions and plein airs. Conducts training individually, collectively and online."
+          />
         </p>
         <p>
           <span className="nowrap" style={{ marginRight: "1rem" }}>
-            Творчість в соцмережах:
+            <FormattedMessage
+              id="home.social"
+              defaultMessage="Creativity in social networks:"
+            />
           </span>
           <span className="nowrap">
             <a
@@ -123,7 +145,9 @@ export default function Home(props) {
         </p>
       </Modal.Body>
       <Modal.Footer className="bg-info">
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide}>
+          <FormattedMessage id="home.closeButton" defaultMessage="Close" />
+        </Button>
       </Modal.Footer>
     </Modal>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FormattedMessage } from "react-intl";
+
 import home from "../assets/social/home.png";
 import mail from "../assets/social/mail.png";
 import viber from "../assets/social/viber.png";
@@ -67,16 +69,39 @@ export default function Footer() {
           </div>
         </div>
         <div className="right">
-          <h4>About the site</h4>
+          <h4>
+            <FormattedMessage
+              id="footer.title"
+              defaultMessage="About the site"
+            />
+          </h4>
           <p>
-            This is the page of the Ukrainian artist Ella Zolotarenko, who works
-            in the style of Petrykiv's painting.
+            <FormattedMessage
+              id="footer.text"
+              defaultMessage="This is the page of the Ukrainian artist Ella Zolotarenko, who works in the style of Petrykiv's painting."
+            />
           </p>
           <p>
-            <span className="nowrap">Copyright &copy; 2012-2024</span>{" "}
-            <span className="nowrap">Ella Zolotarenko</span>
+            <span className="nowrap">
+              <FormattedMessage
+                id="footer.copyright"
+                defaultMessage="Copyright"
+              />
+              &copy; 2012-2024
+            </span>{" "}
+            <span className="nowrap">
+              <FormattedMessage
+                id="footer.artist"
+                defaultMessage="Ella Zolotarenko"
+              />
+            </span>
           </p>
-          <p>All Rights Reserved</p>
+          <p>
+            <FormattedMessage
+              id="footer.rights"
+              defaultMessage="All Rights Reserved"
+            />
+          </p>
         </div>
       </div>
     </div>

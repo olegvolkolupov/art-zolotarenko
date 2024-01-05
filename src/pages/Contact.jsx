@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 
+import { FormattedMessage } from "react-intl";
+
 import Alert from "react-bootstrap/Alert";
 
 import emailjs from "@emailjs/browser";
@@ -32,7 +34,10 @@ export default function Contact() {
         (result) => {
           setAlertVariant("success");
           setAlertText(
-            "Message sent successfully! I'll contact you as soon as posible."
+            <FormattedMessage
+              id="contact.successAlert"
+              defaultMessage="Message sent successfully! I'll contact you as soon as posible."
+            />
           );
           setShowAlert(true);
           let elRef = e.target.elements;
@@ -42,7 +47,14 @@ export default function Contact() {
         },
         (error) => {
           setAlertVariant("danger");
-          setAlertText("Some error. " + error.text);
+          setAlertText(
+            (
+              <FormattedMessage
+                id="contact.errorAlert"
+                defaultMessage="Some error. "
+              />
+            ) + error.text
+          );
           setShowAlert(true);
         }
       );
@@ -50,7 +62,12 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h1>Send me a letter</h1>
+      <h1>
+        <FormattedMessage
+          id="contact.title"
+          defaultMessage="Send me a letter"
+        />
+      </h1>
       <Alert
         show={showAlert}
         variant={alertVariant}
@@ -61,7 +78,9 @@ export default function Contact() {
       </Alert>
 
       <Form ref={form} onSubmit={sendEmail}>
-        <FloatingLabel label="Name">
+        <FloatingLabel
+          label={<FormattedMessage id="contact.name" defaultMessage="Name" />}
+        >
           <Form.Control
             type="text"
             placeholder="Enter your name"
@@ -69,7 +88,9 @@ export default function Contact() {
             required
           />
         </FloatingLabel>
-        <FloatingLabel label="Email">
+        <FloatingLabel
+          label={<FormattedMessage id="contact.email" defaultMessage="Email" />}
+        >
           <Form.Control
             type="email"
             placeholder="Enter your email"
@@ -77,7 +98,11 @@ export default function Contact() {
             required
           />
         </FloatingLabel>
-        <FloatingLabel label="Message">
+        <FloatingLabel
+          label={
+            <FormattedMessage id="contact.message" defaultMessage="Message" />
+          }
+        >
           <Form.Control
             as="textarea"
             placeholder="Leave a message here"
@@ -87,7 +112,7 @@ export default function Contact() {
           />
         </FloatingLabel>
         <Button variant="primary" type="submit">
-          Send
+          <FormattedMessage id="contact.sendButton" defaultMessage="Send" />
         </Button>
       </Form>
     </div>
